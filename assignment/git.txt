@@ -1,0 +1,11 @@
+1. go to git-scmcom
+2. open the assignment with git bash here
+3. git init
+4. git add -A
+5. git status (to check the status of all files/folders used)
+6. git commit -m "work complete"
+7. to config git
+	i) git config --global user.name "hareem
+	ii) git config --global useremail "mail"
+8. go to github.com and make repo
+9. git remote add origin https://github.com/hareemsoomro/sass
