@@ -1,0 +1,36 @@
+//variables
+$bg-color: #9FE2BF;
+$text-color: #0e6651;
+
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+//mixin
+@mixin flexprop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  letter-spacing: .5rem;
+  text-transform: uppercase
+}
+.main_header {
+  @include flexprop();
+  width: 100w;
+  height: 100vh;
+ 
+  background: $bg-color;
+}
+h1 {
+  color: $text-color;
+  font-size: 5rem + 1rem; //operators
+  &:hover{
+    color:red;
+  }
+  
+}
